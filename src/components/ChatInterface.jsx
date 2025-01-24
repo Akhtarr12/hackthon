@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { Send, Loader2 } from 'lucide-react';
-import { getChatResponse } from '../api/mockoon-cli start --data https://raw.githubusercontent.com/mockoon/mock-samples/main/mock-apis/data/twiliocom-twilio-chat-v2.json';
+import { getChatResponse } from '../api/api';
 
 const ChatInterface = ({ isActive, analysisContext }) => {
   const [messages, setMessages] = useState([]);

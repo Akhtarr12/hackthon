@@ -3,7 +3,8 @@ import { Upload, Camera, Loader2 } from 'lucide-react';
 import ChatInterface from './components/chatinterface';
 import ImagePreview from './components/ImagePreview';
 import CameraCapture from './components/cameracapture';
-import { analyzeImage } from './api/https://picsum.photos/id/237/200/300';
+import { analyzeImage } from './api/api';
+
 
 function App() {
   const [selectedImage, setSelectedImage] = useState(null);
